@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     transition: all 0.2s linear;
+    color: black;
 }
 
 .mainContainer {
@@ -20,6 +21,7 @@
 
 .d-flex {
     display: flex;
+    align-items: center;
 }
 
 .mr-1 {
@@ -69,5 +71,24 @@
 }
 
 .btn button:hover {
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.backButton {
+    position: fixed;
+    left: 5rem;
+    top: 5rem;
+}
+
+.backButton button {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+}
+
+.backButton button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }

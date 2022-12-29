@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>CamCapture</title>
   </head>
   <body>
@@ -13,18 +17,30 @@
         <div>
           <a href="./pages/capturePhoto.html">
             <div class="d-flex">
+              <span class="material-symbols-outlined">
+                radio_button_unchecked
+              </span>
               <label for="photo">photo</label>
             </div>
           </a>
           <br />
           <a href="./pages/captureVideo.html">
             <div class="d-flex">
+              <span class="material-symbols-outlined">
+                radio_button_unchecked
+              </span>
               <label for="video">video</label>
             </div>
           </a>
         </div>
       </div>
     </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"
+      integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./script.js"></script>
   </body>
 </html>
